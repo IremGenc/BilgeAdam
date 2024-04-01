@@ -1,0 +1,26 @@
+.campaign-single {
+    background-image: url(../../beyazesya/ha-yenileme-offer-desktop.webp);
+    background-attachment: fixed;
+    padding: 200px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .campaign-single .campaign-wrapper {
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  
+  .campaign-single .campaign-wrapper > a {
+    background-color: white;
+    margin-top: 60px;
+  }
+  
+  .campaign-single .campaign-wrapper > a:hover {
+    background-color: #1367ef;
+    border-color: #1367ef;
+    color: #fff;
+  }

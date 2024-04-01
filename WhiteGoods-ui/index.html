@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White Goods</title>
+
+    <!--! Boostrap Icons CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!--!  header start -->
+    <header>
+        <div class="header-row">
+            <div class="container">
+                <div class="header-wrapper">
+                    <div class="header-mobile">
+                        <i class="bi bi-list" id="btn-menu"></i>
+                    </div>
+                    <div class="header-left">
+                        <a href="index.html" class="logo">GENC</a>
+                    </div>
+                    <div class="header-center" id="sidebar">
+                        <nav class="navigation">
+                            <ul class="menu-list">
+                                <li class="menu-list-item">
+                                    <a href="index.html" class="menu-link active">
+                                        Home
+                                        <i class="bi bi-chevron-down"></i>
+                                    </a>  
+                                </li>
+                                <li class="menu-list-item megamenu-wrapper">
+                                    <a href="shop.html" class="menu-link">
+                                        Category
+                                        <i class="bi bi-chevron-down"></i>
+                                    </a>
+                                    <div class="menu-dropdown-wrapper">
+                                        <div class="menu-dropdown-megamenu">
+                                            <div class="megamenu-links">
+                                                <div class="megamenu-products">
+                                                    <h3 div class="megamenu-products-title">
+                                                        White Goods
+                                                    </h3>
+                                                    <ul class="megamenu-menu-list">
+                                                        <li>
+                                                            <a href="#">Freezer</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Deep Freeze</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="megamenu-products">
+                                                    <h3 div class="megamenu-products-title">
+                                                        Small Appliances
+                                                    </h3>
+                                                    <ul class="megamenu-menu-list">
+                                                        <li>
+                                                            <a href="#">Mop</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Iron</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                        <i class="bi-x-circle" id="close-sidebar"></i>
+                    </div>
+                    <div class="header-right">
+                        <div class="header-right-links">
+                          <a href="account.html" class="header-account">
+                            <i class="bi bi-person"></i>
+                          </a>
+                          <button class="search-button">
+                            <i class="bi bi-search"></i>
+                          </button>
+                          <a href="#">
+                            <i class="bi bi-heart"></i>
+                          </a>
+                          <div class="header-cart">
+                            <a href="cart.html" class="header-cart-link">
+                              <i class="bi bi-bag"></i>
+                              <span class="header-cart-count">0</span>
+                            </a>
+                          </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--! header end -->
+
+    <!--! modal search start-->
+    <div class="modal-search">
+        <div class="modal-wrapper">
+            <h3 class="modal-title">Search for products</h3>
+            <p class="modal-text">Start typing to see products you are looking for.</p>
+            <form class="search-form">
+                <input type="text" placeholder="Search a product">
+                <button>
+                    <i class="bi bi-search"></i>
+                </button>
+            </form>
+            <div class="search-results">
+            <div class="search-heading">
+                <h3>RESULTS FROM PRODUCT</h3>
+            </div>
+            <div class="results">
+                <a href="#" class="result-item">
+                    <img src="/kucukevalet/image (1).webp" class="search-thumb" alt="">
+                    <div class="search-info">
+                        <h4>Mop</h4>
+                        <span class="search-price">11.799 TL</span>
+                    </div>
+                </a>
+                <a href="#" class="result-item">
+                    <img src="/beyazesya/image (1).webp" class="search-thumb" alt="">
+                    <div class="search-info">
+                        <h4>Freezer</h4>
+                        <span class="search-price">33.469 TL</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <i class="bi bi-x-circle" id="close-search"></i>
+        </div>
+    </div>
+    <!--! modal search end-->
+
+    <!--! slider start-->
+    <section class="slider">
+        <div class="slider-elements">
+            <div class="slider-item fade">
+                <div class="slider-image">
+                   <img src="/beyazesya/1920x1080-beko-buzdolabi.webp" class="img-fluid" alt="">
+        </div>
+        <div class="container">
+          <a href="#" class="btn btn-lg btn-primary">Explore Now</a>
+        </div>
+      </div>
+      <div class="slider-item fade">
+        <div class="slider-image">
+          <img src="beyazesya/1920x1080-beko-kurutmali-camasir-yei.webp" class="img-fluid" alt="">
+        </div>
+        <div class="container">
+          <a href="#" class="btn btn-lg btn-primary">Explore Now</a>
+        </div>
+      </div>
+      <div class="slider-item fade">
+        <div class="slider-image">
+          <img src="beyazesya/1280x720-beko-bulasik.png" class="img-fluid" alt="">
+                </div>
+            <div class="container">
+                <a href="#" class="btn btn-lg btn-primary">Explore Now</a>
+            </div>
+        </div>
+        <div class="slider-buttons">
+          <button>
+            <i class="bi bi-chevron-left"></i>
+          </button>
+          <button>
+            <i class="bi bi-chevron-right"></i>
+          </button>
+        </div>
+            <div class="slider-dots">
+                <button class="slider-dot">
+                  <span></span>
+                </button>
+                <button class="slider-dot">
+                  <span></span>
+                </button>
+                <button class="slider-dot">
+                  <span></span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!--! slider end-->
+
+  
+     <!--! products start small 1 -->
+     <section class="products">
+        <div class="conteiner">
+            <div class="section-title">
+                <h2>PRODUCTS</h2>
+            </div>
+            <div class="product-wrapper">
+                <ul class="product-list">
+                    <li class="product-item">
+                        <div class="product-image3">
+                            <a href="#">
+                                <img src="kucukevalet/image (1).webp" alt="" class="img1">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <a href="$" class="product-title">Robot Vacuum Cleaner</a>
+                            <ul class="product-star">
+                                <li>
+                                    <i class="bi bi-star-fill"></i>
+                                </li>
+                                <li>
+                                    <i class="bi bi-star-fill"></i>
+                                </li>
+                                <li>
+                                    <i class="bi bi-star-fill"></i>
+                                </li>
+                                <li>
+                                    <i class="bi bi-star-fill"></i>
+                                </li>
+                            </ul>
+                            <div class="product-prices">
+                                <strong class="new-price">11.799 TL</strong>
+                            </div>
+                            <div class="product-links">
+                                <button>
+                                    <i class="bi bi-basket-fill"></i>
+                                </button>
+                                <button>
+                                    <i class="bi bi-heart-fill"></i>
+                                </button>
+                                <a href="#">
+                                    <i class="bi bi-eye-fill"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="bi bi-share-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="product-item">
+                        <div class="product-image3">
+                            <a href="#">
+                                <img src="kucukevalet/image (3).webp" alt="" class="img1">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <a href="$" class="product-title">Iron</a>
+                            <ul class="product-star">
+                                <li>
+                                    <i class="bi bi-star-fill"></i>
+                                </li>
+                                <li>
+                                    <i class="bi bi-star-fill"></i>
+                                </li>
+                                <li>
+                                    <i class="bi bi-star-fill"></i>
+                                </li>
+                                <li>
+                                    <i class="bi bi-star-fill"></i>
+                                </li>
+                                <li>
+                                    <i class="bi bi-star-fiil"></i>
+                                </li>
+                            
+                            </ul>
+                            <div class="product-prices">
+                                <strong class="new-price">2.899 TL</strong>
+                            </div>
+                            <div class="product-links">
+                                <button>
+                                    <i class="bi bi-basket-fill"></i>
+                                </button>
+                                <button>
+                                    <i class="bi bi-heart-fill"></i>
+                                </button>
+                                <a href="#">
+                                    <i class="bi bi-eye-fill"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="bi bi-share-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="product-item">
+                        <div class="product-image">
+                            <a href="#">
+                                <img src="beyazesya/image.webp" alt="" class="img1">
+                               
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <a href="$" class="product-title">Freezer</a>
+                            <ul class="product-star">
+                                <li>
+                                    <i class="bi bi-star-fill"></i>
+                                </li>
+                                <li>
+                                    <i class="bi bi-star-fill"></i>
+                                </li>
+                                <li>
+                                    <i class="bi bi-star-fill"></i>
+                                </li>
+                                <li>
+                                    <i class="bi bi-star-fill"></i>
+                                </li>
+                                <li>
+                                    <i class="bi bi-star-half"></i>
+                                </li>
+                            </ul>
+                            <div class="product-prices">
+                                <strong class="new-price">33.469 TL</strong>
+                            </div>
+                            <div class="product-links">
+                                <button>
+                                    <i class="bi bi-basket-fill"></i>
+                                </button>
+                                <button>
+                                    <i class="bi bi-heart-fill"></i>
+                                </button>
+                                <a href="#">
+                                    <i class="bi bi-eye-fill"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="bi bi-share-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="product-item">
+                        <div class="product-image">
+                            <a href="#">
+                                <img src="beyazesya/image (4).webp" alt="" class="img1">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <a href="$" class="product-title">Deep Freeze</a>
+                            <ul class="product-star">
+                                <li>
+                                    <i class="bi bi-star-fill"></i>
+                                </li>
+                                <li>
+                                    <i class="bi bi-star-fill"></i>
+                                </li>
+                                <li>
+                                    <i class="bi bi-star-fill"></i>
+                                </li>
+                                <li>
+                                    <i class="bi bi-star-fill"></i>
+                                </li>
+                                <li>
+                                    <i class="bi bi-star-half"></i>
+                                </li>
+                            </ul>
+                            <div class="product-prices">
+                                <strong class="new-price">24.329 TL</strong>
+                                
+                            </div>
+                            <div class="product-links">
+                                <button>
+                                    <i class="bi bi-basket-fill"></i>
+                                </button>
+                                <button>
+                                    <i class="bi bi-heart-fill"></i>
+                                </button>
+                                <a href="#">
+                                    <i class="bi bi-eye-fill"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="bi bi-share-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--! products finish small 1-->
+    
+   
+    <!--! campaign single start-->
+    <section class="campaign-single">
+        <div class="container">
+            <div class="campaign-wrapper">
+                <a href="#" class="btn btn-lg">
+                    SHOP NOW
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+     <!--! campaign single end-->
+    
+     <!--! policy start  -->
+  <section class="policy">
+    <div class="container">
+      <ul class="policy-list">
+        <li class="policy-item">
+          <i class="bi bi-truck"></i>
+          <div class="policy-texts">
+            <strong>FREE DELIVERY</strong>
+            <span>From 800 TL</span>
+          </div>
+        </li>
+        <li class="policy-item">
+          <i class="bi bi-headset"></i>
+          <div class="policy-texts">
+            <strong>SUPPORT 24/7</strong>
+            <span>Online 24 hours</span>
+          </div>
+        </li>
+        <li class="policy-item">
+          <i class="bi bi-arrow-clockwise"></i>
+          <div class="policy-texts">
+            <strong> 30 DAYS RETURN</strong>
+            <span>Simply return it within 30 days</span>
+          </div>
+        </li>
+        <li class="policy-item">
+          <i class="bi bi-credit-card"></i>
+          <div class="policy-texts">
+            <strong> PAYMENT METHOD</strong>
+            <span>Secure Payment</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!--! policy end  -->
+
+  <!--! footer start  -->
+  <footer class="footer">
+    <div class="subscribe-row">
+      <div class="container">
+        <div class="footer-row-wrapper">
+          <div class="footer-subscribe-wrapper">
+            <div class="footer-subscribe">
+              <div class="footer-subscribe-top">
+                <h3 class="subscribe-title">Get our emails for info on new items, sales and more.</h3>
+                <p class="subscribe-desc">We'll email you a voucher worth 300 TL off your first order over 2000 TL.</p>
+              </div>
+              <div class="footer-subscribe-bottom">
+                <form>
+                  <input type="text" placeholder="Enter your email address.">
+                  <button class="btn">Subscribe</button>
+                </form>
+                <p class="privacy-text">
+                  By subscribing you agree to our <a href="#">Terms & Conditions and Privacy & Cookies Policy.</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="footer-contact-wrapper">
+            <div class="footer-contact-top">
+              <h3 class="contact-title">
+                Need help? <br>
+                (+90) 123 456 78 90
+              </h3>
+              <p class="contact-desc">We are available 8:00am – 7:00pm</p>
+            </div>
+            <div class="footer-contact-bottom">
+              <div class="download-app">
+                <a href="#">
+                  <img src="beyazesya/app-store.png" alt="">
+                </a>
+                <a href="#">
+                  <img src="beyazesya/google-play.png" alt="">
+                </a>
+              </div>
+              <p class="privacy-text">
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="widgets-row"></div>
+    <div class="copyright-row">
+        <div class="container">
+            <div class="footer-copyright">
+              <div class="site-copyright">
+                <p>
+                  Copyright 2024 © E-Commerce Theme. All right reserved.
+                </p>
+              </div>
+              <a href="#">
+                <img src="beyazesya/cards.png" alt="">
+              </a>
+              <div class="footer-menu">
+                <ul class="footer-menu-list">
+                  <li class="list-item">
+                    <a href="#">Privacy Policy</a>
+                  </li>
+                  <li class="list-item">
+                    <a href="#">Terms and Conditions</a>
+                  </li>
+                  <li class="list-item">
+                    <a href="#">Returns Policy</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    </div>
+  </footer>
+  <!--! footer end  -->
+
+  <script src="js/index.js"></script>
+
+</body>
+</html>

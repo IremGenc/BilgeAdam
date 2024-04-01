@@ -1,0 +1,75 @@
+
+.section-title {
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+/*! products start  */
+
+
+.products {
+  margin-bottom: 40px;
+}
+
+.products .product-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+/*! products end  */
+  
+
+
+  /*! campaign start  */
+.campaigns .campaigns-wrapper {
+  display: flex;
+  gap: 30px;
+  margin: 30px 0;
+  flex-wrap: wrap;
+}
+/*! campaign end  */
+
+/*! policy start  */
+
+.policy {
+  border: 1px solid #dee0ea;
+  margin-top: 40px;
+}
+
+.policy .policy-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 25px 0;
+}
+
+.policy .policy-list .policy-item {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.policy .policy-item i {
+  font-size: 50px;
+  display: flex;
+}
+
+.policy .policy-item .policy-texts {
+  display: flex;
+  flex-direction: column;
+}
+
+.policy .policy-item .policy-texts strong {
+  font-weight: 600;
+}
+
+.policy .policy-item .policy-texts span {
+  font-size: 12px;
+}
+
+/*! policy end  */
